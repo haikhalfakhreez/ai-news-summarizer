@@ -27,7 +27,7 @@ export const Home: NextPage = () => {
     }
   }, [router.isReady, urlState])
 
-  const curUrl = String(curArticle.split('.com')[1])
+  const curUrl = String(curArticle.split('.co')[1])
 
   const generateSummary = async (url?: string) => {
     setSummary('')
